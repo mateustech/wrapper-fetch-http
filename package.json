@@ -1,6 +1,6 @@
 {
   "name": "poc-swr",
-  "version": "3.148.0",
+  "version": "3.149.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
