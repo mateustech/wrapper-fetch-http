@@ -11,6 +11,7 @@ const pingApi = () => instanceAxios.get("/healthy").then((res) => res.data);
 const useFetch = <T extends Object>(call: (url: string) => Promise<T>) => {
   const { data, error, mutate } = useSWR<T>(call, { suspense: true });
 
+  // teste
   const loading = !data && !error;
   return { data, error, mutate, loading };
 };
