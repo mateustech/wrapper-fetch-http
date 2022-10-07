@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/mateustech/wrapper-fetch-http/compare/v2.0.0...v3.0.0) (2022-10-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* added fix
+
+### Bug Fixes
+
+* added fix ([9856841](https://github.com/mateustech/wrapper-fetch-http/commit/9856841d7757e3e8798ef795f890e9812f09ce8f))
+
 ## [2.0.0](https://github.com/mateustech/wrapper-fetch-http/compare/v1.1.1...v2.0.0) (2022-10-07)
 
 
