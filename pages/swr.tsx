@@ -23,7 +23,7 @@ const HomeNacked = () => {
   return (
     <div>
       {request.loading && <div>Loading...</div>}
-      <div>{request.data && JSON.stringify(request.data)}</div>
+      {/* <div>{request.data && JSON.stringify(request.data)}</div> */}
 
       <button onClick={() => request.mutate()}>Mutate</button>
     </div>
