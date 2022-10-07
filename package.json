@@ -9,8 +9,10 @@
     "lint": "next lint",
     "release": "standard-version --skip.commit"
   },
-  "lint-staged": {
-    "*": "release"
+  "standard-version": {
+    "skip": {
+      "commit": true
+    }
   },
   "dependencies": {
     "axios": "^0.27.2",
