@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "version": "standard-version"
+    "increment-version": "standard-version",
+    "prepare": "husky install"
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -22,6 +23,7 @@
     "@types/react-dom": "18.0.5",
     "eslint": "8.5.0",
     "eslint-config-next": "12.1.6",
+    "husky": "^8.0.1",
     "standard-version": "^9.5.0",
     "typescript": "4.7.3"
   }

@@ -10,8 +10,7 @@ const pingApi = () => instanceAxios.get("/healthy").then((res) => res.data);
 
 const useFetch = <T extends Object>(call: (url: string) => Promise<T>) => {
   const { data, error, mutate } = useSWR<T>(call, { suspense: true });
-
-  // teste
+  
   const loading = !data && !error;
   return { data, error, mutate, loading };
 };
@@ -23,7 +22,7 @@ const HomeNacked = () => {
   return (
     <div>
       {request.loading && <div>Loading...</div>}
-      {/* <div>{request.data && JSON.stringify(request.data)}</div> */}
+      <div>{request.data && JSON.stringify(request.data)}</div>
 
       <button onClick={() => request.mutate()}>Mutate</button>
     </div>
@@ -37,5 +36,3 @@ const Home: NextPage = () => {
 };
 
 export default Home;
-
-// adsdadadas
