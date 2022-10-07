@@ -7,14 +7,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: :obra_prédio: Setup repo
+      - name: Setup repo
         uses: actions/checkout@v2
-      - name: :obra_prédio: Setup Node
+      - name: Setup Node
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
           cache: yarn
-      - name: :pacote: Install dependencies
+      - name: Install dependencies
         run: yarn install
-      - name: :pacote: Increment version
+      - name:  Increment version
         run: yarn release
