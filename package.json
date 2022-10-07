@@ -1,13 +1,13 @@
 {
   "name": "poc-swr",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "increment-version": "standard-version",
+    "increment-version": "standard-version --no-verify",
     "prepare": "husky install"
   },
   "dependencies": {
