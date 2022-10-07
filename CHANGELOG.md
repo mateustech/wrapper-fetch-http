@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/mateustech/wrapper-fetch-http/compare/v3.0.0...v4.0.0) (2022-10-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* added setup husky
+
+### Features
+
+* added setup husky ([0a38c31](https://github.com/mateustech/wrapper-fetch-http/commit/0a38c314dbe9508ba72b6ad141ee43d65f192012))
+* added setup husky ([ab2e183](https://github.com/mateustech/wrapper-fetch-http/commit/ab2e183a7982cc4fce619ba4d06ef593c14da519))
+
 ## [3.173.0](https://github.com/mateustech/wrapper-fetch-http/compare/v3.0.0...v3.173.0) (2022-10-07)
 
 
