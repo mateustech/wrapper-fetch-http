@@ -7,12 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "release": "standard-version --skip.commit"
-  },
-  "standard-version": {
-    "skip": {
-      "commit": true
-    }
+    "release": "standard-version"
   },
   "dependencies": {
     "axios": "^0.27.2",
